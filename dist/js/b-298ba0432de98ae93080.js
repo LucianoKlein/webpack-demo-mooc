@@ -62,23 +62,23 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "http://cdn.com/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/b.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/script/main.js":
-/*!****************************!*\
-  !*** ./src/script/main.js ***!
-  \****************************/
+/***/ "./src/script/b.js":
+/*!*************************!*\
+  !*** ./src/script/b.js ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function helloworld() {\n    alert(\"fuck you\");\n}\nhelloworld();\n\n//# sourceURL=webpack:///./src/script/main.js?");
+eval("function aaa() {\n    alert('adfasdfasdfasdf');\n}\n\n//# sourceURL=webpack:///./src/script/b.js?");
 
 /***/ })
 

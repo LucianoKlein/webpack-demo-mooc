@@ -62,23 +62,23 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "http://cdn.com/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/a.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/c.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/script/a.js":
+/***/ "./src/script/c.js":
 /*!*************************!*\
-  !*** ./src/script/a.js ***!
+  !*** ./src/script/c.js ***!
   \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function a() {\n    alert(\"shit!!!!\");\n}\n\n//# sourceURL=webpack:///./src/script/a.js?");
+eval("function www() {\n    alert('asdasdasdasd');\n}\n\n//# sourceURL=webpack:///./src/script/c.js?");
 
 /***/ })
 
