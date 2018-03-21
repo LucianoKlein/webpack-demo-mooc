@@ -1,0 +1,20 @@
+{
+  "name": "headfirst-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.12"
+  }
+}
