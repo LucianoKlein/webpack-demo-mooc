@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpackD": "./node_modules/.bin/webpack-cli --config webpack.config.dev.js --display-modules --color --display-reason"
+    "webpackD": "./node_modules/.bin/webpack-cli --config webpack.config.dev.js --display-modules --color --display-reasons"
   },
   "keywords": [],
   "author": "",

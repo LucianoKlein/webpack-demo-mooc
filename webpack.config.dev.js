@@ -1,10 +1,13 @@
 const path = require('path');
 
 webpackConfig = {
-   entry: ['./src/script/main.js', './src/script/a.js'],
+   entry: {
+       main: './src/script/main.js',
+       a: './src/script/a.js'
+   },
    output: {
        path: path.resolve(__dirname, './dist/js'),
-       filename: 'bundle.js'
+       filename: '[name]-[chunkhash].js'
    },
    mode: 'development'
 };

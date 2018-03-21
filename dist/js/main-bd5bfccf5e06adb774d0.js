@@ -66,19 +66,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/a.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/script/a.js":
-/*!*************************!*\
-  !*** ./src/script/a.js ***!
-  \*************************/
+/***/ "./src/script/main.js":
+/*!****************************!*\
+  !*** ./src/script/main.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function a() {\n    alert(\"shit!!!!\");\n}\n\n//# sourceURL=webpack:///./src/script/a.js?");
+eval("function helloworld() {\n    alert(\"fuck you\");\n}\nhelloworld();\n\n//# sourceURL=webpack:///./src/script/main.js?");
 
 /***/ })
 

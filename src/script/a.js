@@ -1,3 +1,3 @@
 function a() {
-    alert("shit!!!!");
+    alert("shit!!");
 }
