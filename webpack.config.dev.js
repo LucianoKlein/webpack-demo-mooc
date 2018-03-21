@@ -8,7 +8,8 @@ webpackConfig = {
    },
    output: {
        path: path.resolve(__dirname, './dist/'),
-       filename: 'js/[name]-[chunkhash].js'
+       filename: 'js/[name]-[chunkhash].js',
+       publicPath: 'http://cdn.com/'
    },
    mode: 'development',
    plugins: [
