@@ -18,7 +18,11 @@ webpackConfig = {
            template: 'index.html',
            inject: 'head',
            title: 'webpack is aaaaaaaaaawesome',
-           time: new Date()
+           time: new Date(),
+           minify: {
+               removeComments: true,
+               collapseWhitespace: true
+           }
        })
    ]
 };
