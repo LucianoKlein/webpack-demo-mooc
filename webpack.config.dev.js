@@ -13,9 +13,11 @@ webpackConfig = {
    mode: 'development',
    plugins: [
        new htmlWebpackPlugin({
-           filename: 'index-[hash].html',
+           filename: 'index.html',
            template: 'index.html',
-           inject: 'head'
+           inject: 'head',
+           title: 'webpack is aaaaaaaaaawesome',
+           time: new Date()
        })
    ]
 };
