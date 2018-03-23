@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpackD": "./node_modules/.bin/webpack-cli --config webpack.config.dev.js --display-modules --color --display-reasons"
+    "webpackD": "./node_modules/.bin/webpack-cli --config webpack.config.js --display-modules --color --display-reasons"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.0.7",
     "style-loader": "^0.20.3",

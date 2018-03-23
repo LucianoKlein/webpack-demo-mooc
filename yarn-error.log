@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add babel-loader babel-core babel-preset-env
+
+PATH: 
+  /usr/app/jdk180144/bin:/home/hx/bin:/home/hx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hx/local/demo/:/home/hx/local:/usr/app/node-v6.11.2-linux-x64/bin:/home/hx/.yarn/bin:/home/hx/.vimpkg/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.4.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "headfirst-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "webpackD": "./node_modules/.bin/webpack-cli --config webpack.config.dev.js --display-modules --color --display-reasons"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "css-loader": "^0.28.11",
+      "html-webpack-plugin": "^3.0.7",
+      "style-loader": "^0.20.3",
+      "webpack": "^4.1.1"
+    },
+    "devDependencies": {
+      "webpack-cli": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "has-value@^1.0.0" required by "cache-base@^1.0.1" on the "npm" registry.
+      at new MessageError (/usr/share/yarn/lib/cli.js:186:110)
+      at PackageRequest.<anonymous> (/usr/share/yarn/lib/cli.js:36274:17)
+      at Generator.throw (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:111:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:160:7)

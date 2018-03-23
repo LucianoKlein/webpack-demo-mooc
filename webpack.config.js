@@ -8,6 +8,15 @@ webpackConfig = {
        filename: 'js/[name].bundle.js',
    },
    mode: 'development',
+   module: {
+       rules: [
+           {
+               test: /\.js$/,
+               loaders: "babel-loader",
+               exclude: /node_modules/,
+           }
+       ]    
+   },
    plugins: [
         new htmlWebpackPlugin({
             filename: 'index.html',
