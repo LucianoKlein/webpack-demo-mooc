@@ -35,6 +35,27 @@ webpackConfig = {
                        }
                    }
                ]
+           },
+           {
+               test: /\.less$/,
+               use: [
+                   "style-loader",
+                   "css-loader",
+                   {
+                       loader: 'postcss-loader',
+                       options: {
+                           plugins() {
+                               return [
+                                   require('postcss-import')(),
+                                   require('autoprefixer')({
+                                       browsers: ['last 5 versions']
+                                   })
+                               ]
+                           }
+                       }
+                   },
+                   {loader: "less-loader"}
+               ]
            }
        ]    
    },
