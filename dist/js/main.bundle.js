@@ -83,17 +83,6 @@ eval("\n\nvar _layer = __webpack_require__(/*! ./components/layer/layer */ \"./s
 
 /***/ }),
 
-/***/ "./src/components/layer/layer.html":
-/*!*****************************************!*\
-  !*** ./src/components/layer/layer.html ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type.\\n| <div class=\\\"layer\\\">\\n|     <div>this is a layer</div>\\n| </div>\");\n\n//# sourceURL=webpack:///./src/components/layer/layer.html?");
-
-/***/ }),
-
 /***/ "./src/components/layer/layer.js":
 /*!***************************************!*\
   !*** ./src/components/layer/layer.js ***!
@@ -102,7 +91,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may ne
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _layer = __webpack_require__(/*! ./layer.html */ \"./src/components/layer/layer.html\");\n\nvar _layer2 = _interopRequireDefault(_layer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction layer() {\n    return {\n        name: 'layer',\n        tpl: _layer2.default\n    };\n}\n\nexports.default = layer;\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n// import tpl from './layer.html';\n\nfunction layer() {\n    return {\n        name: 'layer',\n        tpl: tpl\n    };\n}\n\nexports.default = layer;\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
 
 /***/ })
 
