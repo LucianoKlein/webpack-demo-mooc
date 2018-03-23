@@ -1,3 +1,0 @@
-function www() {
-    alert('asdasdasdasd');
-}
