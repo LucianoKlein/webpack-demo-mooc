@@ -14,6 +14,7 @@ webpackConfig = {
                test: /\.js$/,
                loaders: "babel-loader",
                exclude: /node_modules/,
+               include: path.resolve(__dirname, "./src/"),
            }
        ]    
    },
