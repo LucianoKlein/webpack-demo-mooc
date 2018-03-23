@@ -15,6 +15,10 @@ webpackConfig = {
                loaders: "babel-loader",
                exclude: /node_modules/,
                include: path.resolve(__dirname, "./src/"),
+           },
+           {
+               test: /\.css$/,
+               loader: 'style-loader!css-loader'
            }
        ]    
    },
