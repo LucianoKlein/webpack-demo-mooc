@@ -8,3 +8,6 @@
 #学习config文件
 ./node_modules/.bin.webpack-cli --config ./xxx.config.js
 ./node_modules/.bin_webpack-cli --config webpack.config.dev.js
+
+npm i postcss-import
+npm i autoprefixed 
