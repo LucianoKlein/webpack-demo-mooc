@@ -62,6 +62,9 @@ webpackConfig = {
                    },
                    {loader: "less-loader"}
                ]
+           }, {
+               test: /\.(png|jpg|gif|svg)$/i,
+               loader: 'file-loader'
            }
        ]    
    },
