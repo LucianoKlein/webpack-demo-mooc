@@ -64,7 +64,10 @@ webpackConfig = {
                ]
            }, {
                test: /\.(png|jpg|gif|svg)$/i,
-               loader: 'file-loader'
+               loader: 'file-loader',
+               query: {
+                   name: 'assets/[name]-[hash:5].[ext]'
+               }
            }
        ]    
    },
